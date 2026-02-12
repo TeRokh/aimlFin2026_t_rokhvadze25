@@ -18,7 +18,7 @@
 
 ### Log File Information
 
-- **Source File**: [logs.log](./logs.log) (included in this repository)
+- **Source File**: [logs.log](./logs.log) (included in this repository) and Used Link : https://max.ge/aiml_final/t_rokhvadze25_69428_server.log
 - **Total Entries**: 79,695 log entries
 - **Time Span**: March 22, 2024, 18:00:00 to 19:00:00 (UTC+4)
 - **Duration**: 60 minutes
