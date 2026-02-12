@@ -1,9 +1,5 @@
 # DDoS Attack Detection Using Regression Analysis
 
-## Executive Summary
-
-This report presents a comprehensive analysis of web server logs to detect Distributed Denial of Service (DDoS) attacks using statistical regression analysis. The analysis identified **one major DDoS attack** occurring between **18:31:00 and 18:35:00 on March 22, 2024**, lasting approximately **4 minutes** with peak traffic reaching **12,695 requests per minute**.
-
 ---
 
 ## Table of Contents
@@ -425,15 +421,4 @@ For production deployment:
 - `residual_distribution.png` - Statistical validation
 - `ddos_intervals.csv` - Detection results
 
-### References
 
-1. Linear Regression for Time Series Analysis
-2. Statistical Anomaly Detection Methods
-3. DDoS Attack Patterns and Characteristics
-4. Z-score Normalization for Outlier Detection
-
----
-
-**Report Generated**: February 12, 2026  
-**Analysis Tool**: Python 3.x with scikit-learn, pandas, matplotlib  
-**Author**: DDoS Detection System
