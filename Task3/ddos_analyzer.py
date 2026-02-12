@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""
-DDoS Attack Detection using Regression Analysis
-This script analyzes web server logs to detect DDoS attack intervals
-using statistical methods and regression analysis.
-"""
-
 import re
 import pandas as pd
 import numpy as np
