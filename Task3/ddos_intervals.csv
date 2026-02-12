@@ -1,0 +1,2 @@
+start,end,duration_minutes,avg_requests,max_requests,avg_residual_zscore,total_requests,unique_ips
+2024-03-22 18:31:00+04:00,2024-03-22 18:35:00+04:00,4.0,8659.0,12695,2.9160016362579455,43295,1114
