@@ -308,7 +308,7 @@ for idx, class_name in enumerate(class_names):
     axes[1, idx].set_ylabel('Frequency')
 
 plt.tight_layout()
-plt.savefig('/home/claude/task_1/malware_samples.png', dpi=150, bbox_inches='tight')
+plt.savefig('/home/trokhvadze/task_1/malware_samples.png', dpi=150, bbox_inches='tight')
 print("  Saved: malware_samples.png ✓")
 plt.close()
 
@@ -459,7 +459,7 @@ ax2.legend(loc='upper right')
 ax2.grid(True, alpha=0.3)
 
 plt.tight_layout()
-plt.savefig('/home/claude/task_1/training_history.png', dpi=150, bbox_inches='tight')
+plt.savefig('/home/trokhvadze/task_1/training_history.png', dpi=150, bbox_inches='tight')
 print("  Saved: training_history.png ✓")
 plt.close()
 
@@ -473,7 +473,7 @@ plt.title('Confusion Matrix - Malware Classification', fontsize=14, fontweight='
 plt.xlabel('Predicted Label', fontsize=12)
 plt.ylabel('True Label', fontsize=12)
 plt.tight_layout()
-plt.savefig('/home/claude/task_1/confusion_matrix.png', dpi=150, bbox_inches='tight')
+plt.savefig('/home/trokhvadze/task_1/confusion_matrix.png', dpi=150, bbox_inches='tight')
 print("  Saved: confusion_matrix.png ✓")
 plt.close()
 
@@ -501,7 +501,7 @@ for i in range(8):
     axes[row, col].axis('off')
 
 plt.tight_layout()
-plt.savefig('/home/claude/task_1/sample_predictions.png', dpi=150, bbox_inches='tight')
+plt.savefig('/home/trokhvadze/task_1/sample_predictions.png', dpi=150, bbox_inches='tight')
 print("  Saved: sample_predictions.png ✓")
 plt.close()
 
@@ -542,7 +542,7 @@ for layer_idx, (activation, layer_name) in enumerate(zip(activations, layer_name
             ax.set_title(f'Filter {filter_idx+1}', fontsize=9)
 
 plt.tight_layout()
-plt.savefig('/home/claude/task_1/feature_maps.png', dpi=150, bbox_inches='tight')
+plt.savefig('/home/trokhvadze/task_1/feature_maps.png', dpi=150, bbox_inches='tight')
 print("  Saved: feature_maps.png ✓")
 plt.close()
 
@@ -683,10 +683,4 @@ Convolutional Neural Networks have transformed both computer vision and cybersec
 
 As threats evolve, CNNs continue to adapt through techniques like transfer learning, ensemble methods, and adversarial training. The future of CNN-based security systems lies in combining them with other AI approaches, such as recurrent networks for temporal analysis and graph neural networks for relationship modeling, creating comprehensive defense mechanisms against sophisticated cyber threats.
 
----
 
-**References:**
-- LeCun, Y., et al. (1998). "Gradient-based learning applied to document recognition"
-- Krizhevsky, A., et al. (2012). "ImageNet Classification with Deep CNNs"
-- Nataraj, L., et al. (2011). "Malware images: Visualization and automatic classification"
-- Goodfellow, I., et al. (2016). "Deep Learning" (MIT Press)
