@@ -409,16 +409,4 @@ For production deployment:
 
 ---
 
-## Appendix
-
-### File Inventory
-
-- `ddos.md` - This report
-- `logs.log` - Original event log file (79,695 entries)
-- `ddos_analyzer.py` - Complete source code
-- `regression_analysis.png` - Main visualization
-- `statistical_metrics.png` - Detailed metrics
-- `residual_distribution.png` - Statistical validation
-- `ddos_intervals.csv` - Detection results
-
 
