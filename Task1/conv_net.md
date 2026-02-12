@@ -683,10 +683,3 @@ Convolutional Neural Networks have transformed both computer vision and cybersec
 
 As threats evolve, CNNs continue to adapt through techniques like transfer learning, ensemble methods, and adversarial training. The future of CNN-based security systems lies in combining them with other AI approaches, such as recurrent networks for temporal analysis and graph neural networks for relationship modeling, creating comprehensive defense mechanisms against sophisticated cyber threats.
 
----
-
-**References:**
-- LeCun, Y., et al. (1998). "Gradient-based learning applied to document recognition"
-- Krizhevsky, A., et al. (2012). "ImageNet Classification with Deep CNNs"
-- Nataraj, L., et al. (2011). "Malware images: Visualization and automatic classification"
-- Goodfellow, I., et al. (2016). "Deep Learning" (MIT Press)
