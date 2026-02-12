@@ -176,7 +176,7 @@ def detect_ddos_intervals(df, threshold_zscore=2.0, min_duration_minutes=1, max_
     
     return intervals, df
 
-def create_visualizations(df, intervals, output_dir='/home/claude'):
+def create_visualizations(df, intervals, output_dir='/home/trokhvadze'):
     """Create comprehensive visualizations for the analysis."""
     
     # Figure 1: Request Count Over Time with Regression Line
@@ -352,7 +352,7 @@ def main():
     """Main execution function."""
     # Configuration
     log_file = '/mnt/user-data/uploads/1770912107252_logs.log'
-    output_dir = '/home/claude'
+    output_dir = '/home/trokhvadze'
     
     # Load and parse logs
     df_raw = load_and_parse_logs(log_file)
